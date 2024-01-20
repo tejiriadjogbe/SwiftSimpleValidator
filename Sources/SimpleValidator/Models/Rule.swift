@@ -17,6 +17,7 @@ public struct Rule {
     }
     
     public init(_ rule: SVRules, message: String) {
-        self.init(rule.rawValue, message: message)
+        self.rule = rule
+        self.message = message
     }
 }
