@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 public class SimpleValidator {
-    public func validate(rules: [Rule], candidates: [ValidationCandidate]) -> Bool {
+    public static func validate(rules: [Rule], candidates: [ValidationCandidate]) -> Bool {
         var isValid = true
 
         for candidate in candidates {

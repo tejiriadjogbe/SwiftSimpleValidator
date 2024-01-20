@@ -11,7 +11,7 @@ public struct ValidationCandidate {
     var text: String
     var errorLabel: UILabel?
     
-    init(text: String, errorLabel: UILabel? = nil) {
+    public init(text: String, errorLabel: UILabel? = nil) {
         self.text = text
         self.errorLabel = errorLabel
     }

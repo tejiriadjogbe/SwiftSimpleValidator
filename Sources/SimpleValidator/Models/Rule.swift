@@ -11,12 +11,12 @@ public struct Rule {
     var rule: ValidatorRule
     var message: String
     
-    init(rule: ValidatorRule, message: String) {
+    public init(rule: ValidatorRule, message: String) {
         self.rule = rule
         self.message = message
     }
     
-    init(rule: SVRules, message: String) {
+    public init(rule: SVRules, message: String) {
         self.rule = rule
         self.message = message
     }
