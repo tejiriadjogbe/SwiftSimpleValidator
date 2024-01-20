@@ -35,7 +35,7 @@ Working with UITextFileds is way easier, you can simply just call the validate f
     let isNameValid = nameField.validate(rules: rules, errorLabel: nameErrorLabel)
     let isEmailValidd = emailField.validate(rules: rules, errorLabel: emailErrorLabel)
 
-    return isPhoneValid && isNameValid && isEmailValidd
+    return isPhoneValid && isNameValid && isEmailValid
   }
 ```
 
